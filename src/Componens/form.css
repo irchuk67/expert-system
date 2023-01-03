@@ -1,0 +1,35 @@
+.form {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.form--field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.form--field > * > label > span {
+  font-size: 1.3rem;
+}
+
+.submit {
+  border: none;
+  background-image: linear-gradient(to bottom right, rgb(135, 206, 250), rgb(144, 238, 144));
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+  justify-self: center;
+}
+
+#menu-toStore > div > ul > li,
+#text-input,
+#mui-component-select-toStore {
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=form.css.map */

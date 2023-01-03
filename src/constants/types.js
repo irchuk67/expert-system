@@ -1,0 +1,5 @@
+const FIND_BEST_DECISION = 'FIND_BEST_DECISION'
+
+export {
+    FIND_BEST_DECISION
+}

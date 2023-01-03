@@ -1,0 +1,14 @@
+.App{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100vh;
+}
+.form-part{
+  padding: 1.5rem;
+}
+
+.decision-part{
+  padding: 1.5rem;
+  background-image: linear-gradient(to bottom right, rgba(135, 206, 250, .4), rgba(144, 238, 144, .5));
+  box-shadow: 0 .2rem 2rem rgba(black, .5);
+}
